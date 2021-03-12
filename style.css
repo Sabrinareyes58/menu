@@ -1,0 +1,119 @@
+body {
+	background-color: coral;
+
+		background: 
+			linear-gradient(
+				rgba(0,0,0,100%),
+				rgba(0,0,0,90%),
+				rgba(0,0,0,35%),
+				rgba(0,0,0,0%))no-repeat,
+			url(img/tips.jpg);
+	       
+
+	background-size: cover;
+	height: 650px;
+}
+
+h1 	{
+    font-family: 'Amarante';font-size: 22px;
+	background-color: black;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #855EDE;
+	font-size: 25px;
+	font-family: 'Amarante';font-size: 22px;
+}
+
+.nav {
+	border-style: solid;
+	/*border-width: 1px;*/
+    float: right;
+	margin:0px 5px;
+	width: 59%;
+	/*background-color: white;*/
+	text-align: right;
+	font-family: 'Amarante';font-size: 22px;
+} 
+
+
+/*Este es un div*/
+.panel {
+	width: 30%;
+	height: 600px;
+	background-color: black;
+	color: white;
+    opacity: 90%;
+    padding: 50px;
+}
+ul 	{
+	/*background-color: orange;*/
+}
+
+.nav ul li	{
+	/*float: right;*/
+	margin: 0px 20px;
+	text-align: center;
+	/*width: 110px;*/
+	color: grey;
+	/*border-width: 1px;*/
+	/*border-style: solid;*/ 
+	/*border-color: grey;*/
+	display: inline-block;
+	border-radius: 50px 10px;
+
+}
+
+li:hover {
+	background-color: gray;
+	color: white;
+}
+
+a 	{
+	text-decoration: none;
+	display: inline-block;
+	color: grey;
+	border:2px solid;
+	border-radius: 50px 50px 50px 50px;
+	font-size: 20px;
+	/*border-width: 1px;*/
+	/*border-style: solid;*/
+	width: 110px;
+	font-family: 'Amarante';font-size: 19px;
+}
+
+a:hover {
+	color: white;
+	border-radius: 50px 50px;
+}
+
+ section {
+       width: 70%;
+	   margin:20px auto;
+	   padding:30px;
+	   text-align: left;
+	   color: white;
+       background-color: black;  
+       border-radius: 50px 50px;
+       font-family: 'Amarante';font-size: 15px;
+ }
+
+ p {
+ 	text-align: center;
+ }
+
+ img {
+	height: 250px;
+	width: 50%;
+	/*propiedades para centrar*/
+	display: block;
+	margin: 0px auto;
+   /**************************/	
+}
+
+ 
